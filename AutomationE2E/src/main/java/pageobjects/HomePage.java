@@ -23,6 +23,8 @@ public class HomePage {
 
 	@FindBy(xpath="//a[@aria-label='Amazon']")
 	WebElement logo;
+	@FindBy(xpath="//a[@aria-label='Amazon']")
+	WebElement logoEdited;
 	@FindBy(xpath="//a[text()='Amazon Pay']")
 	WebElement Amazonpay;
 	@FindBy(xpath="//a[@id='nav-your-amazon']")
