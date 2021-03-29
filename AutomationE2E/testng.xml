@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationE2E" parallel="tests" data-provider-thread-count="2" thread-count="2">
+	
+	<listeners>
+	        <listener class-name='listeners.CustomTestNGReporter'/>
+	</listeners>
+	
+	<test name="URL's Testcase Automation">
+		<classes>
+			<class name="testcase.Test_URLS"/>
+		</classes>
+	</test>
+</suite>

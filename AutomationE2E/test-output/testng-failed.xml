@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [AutomationE2E]" parallel="tests" data-provider-thread-count="2">
+  <listeners>
+    <listener class-name="listeners.CustomTestNGReporter"/>
+  </listeners>
+  <test thread-count="2" name="URL&#039;s Testcase Automation(failed)" parallel="tests">
+    <classes>
+      <class name="testcase.Test_URLS">
+        <methods>
+          <include name="setExtent"/>
+          <include name="closeApplication"/>
+          <include name="flushReport"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="TestURLs" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase.Test_URLS -->
+    </classes>
+  </test> <!-- URL's Testcase Automation(failed) -->
+</suite> <!-- Failed suite [AutomationE2E] -->

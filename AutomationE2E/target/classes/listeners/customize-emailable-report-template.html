@@ -1,0 +1,45 @@
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ </head>
+  
+  <body style="font-family:Sans-serif;">
+  <div class="container">
+    <table class="table table-bordered">
+      <tr><center><b>$TestNG_Custom_Report_Title$</b></center></tr>
+      <thead>
+        <tr>
+          <th>Test Name</th>
+          <th># Total Method</th>
+          <th># Passed</th>
+          <th># Skipped</th>
+          <th># Failed</th>
+          <th>Browser</th>
+          <th>Start Time</th>
+          <th>End Time</th>
+          <th>Execute Time (hh:mm:ss:ms)</th>
+          <th>Included Groups</th>
+          <th>Excluded Groups</th>
+        </tr>
+       </thead> 
+       $Test_Case_Summary$
+    </table>
+    <table id="summary"  class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Application</th>
+           <th>Method</th>
+          <th>Start Time</th>
+          <th>Execution Time (hh:mm:ss:ms)</th>
+          <th>Reporter Message</th>
+          <th>URL</th>
+          <th>Exception Message</th>
+        </tr>
+      </thead> 
+      $Test_Case_Detail$
+    </table>
+   </div>
+  </body>

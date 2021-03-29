@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[=============Browser Session Started========]]>
+    </line>
+    <line>
+      <![CDATA[=============Browser Session Ended========]]>
+    </line>
+  </reporter-output>
+  <suite name="AutomationE2E" duration-ms="217658" started-at="2021-03-29T06:51:10Z" finished-at="2021-03-29T06:54:48Z">
+    <groups>
+    </groups>
+    <test name="URL&#039;s Testcase Automation" duration-ms="217658" started-at="2021-03-29T06:51:10Z" finished-at="2021-03-29T06:54:48Z">
+      <class name="testcase.Test_URLS">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcase.Test_URLS@2b546384]" name="setExtent" is-config="true" duration-ms="111" started-at="2021-03-29T06:51:10Z" finished-at="2021-03-29T06:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.Test_URLS@2b546384]" name="setup" is-config="true" duration-ms="0" started-at="2021-03-29T06:51:11Z" finished-at="2021-03-29T06:51:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=============Browser Session Started========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="TestURLs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.Test_URLS@2b546384]" name="TestURLs" duration-ms="217149" started-at="2021-03-29T06:51:11Z" data-provider="Data1" finished-at="2021-03-29T06:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seleniumautomation1399@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amazon_123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Electronics Menu Verifiaction Failed expected [Electronics Store: Buy Electronics products Online at Best Prices in India at Amazon.in] but found [Amazon.in Hot New Releases: The bestselling new and future releases in Electronics]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Electronics Menu Verifiaction Failed expected [Electronics Store: Buy Electronics products Online at Best Prices in India at Amazon.in] but found [Amazon.in Hot New Releases: The bestselling new and future releases in Electronics]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at testcase.Test_URLS.TestURLs(Test_URLS.java:183)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestURLs -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:testcase.Test_URLS@2b546384]" name="closeApplication" is-config="true" duration-ms="7" started-at="2021-03-29T06:54:48Z" finished-at="2021-03-29T06:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestURLs status=FAILURE method=Test_URLS.TestURLs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.Test_URLS@2b546384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=============Browser Session Ended========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:testcase.Test_URLS@2b546384]" name="flushReport" is-config="true" duration-ms="345" started-at="2021-03-29T06:54:48Z" finished-at="2021-03-29T06:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcase.Test_URLS@2b546384]" name="endReport" is-config="true" duration-ms="1" started-at="2021-03-29T06:54:48Z" finished-at="2021-03-29T06:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcase.Test_URLS -->
+    </test> <!-- URL's Testcase Automation -->
+  </suite> <!-- AutomationE2E -->
+</testng-results>
